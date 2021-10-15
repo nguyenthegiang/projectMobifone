@@ -1,0 +1,158 @@
+/* ----------------Style cho các trang liên quan đến Port1090---------------- */
+/* -------------------------------------------------------------------------- */
+
+#navbarDropdown {
+    color: #0a4874;
+    font-weight: bold;
+}
+
+#linkHeader {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+#linkHeader:hover {
+    color: #237bd3;
+    text-decoration: underline;
+}
+
+#homeLink {
+    font-size: large;
+    color: black;
+}
+
+.breadcrumb-more-than {
+    font-size: larger;
+}
+
+#newsLink {
+    font-size: large;
+    color: #237bd3;
+    font-weight: bold;
+}
+
+#showNewsLink {
+    float: right;
+}
+
+ul#linkBody li {
+    display: inline;
+    padding: 15px;
+}
+
+ul#linkBody li a {
+    text-align: center;
+    font-weight: lighter;
+}
+
+#mainCard {
+    padding-right: 20px;
+}
+
+#cardLink {
+    text-decoration: none;
+    color: black;
+}
+
+#khuyenMai {
+    font-size: medium;
+    color: #237bd3;
+}
+
+#cardTitle {
+    color: #0a4874;
+    font-size: x-large;
+}
+
+#cardTitle:hover {
+    text-decoration: underline;
+}
+
+#cardTitleSmall {
+    color: #0a4874;
+    font-size: larger;
+}
+
+#cardTitleSmall:hover {
+    text-decoration: underline;
+}
+
+#otherNews {
+    color: #0a4874;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cardDetail {
+    padding: 30px 10px 20px 10px;
+}
+
+#imageDetail {
+    margin: 20px;
+}
+
+#shareButton {
+    float: right;
+}
+
+#titleButton {
+    display: inline-block;
+    text-transform: uppercase;    
+}
+
+#otherTitleButton {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    float: right;
+}
+
+#listnews {
+    list-style-type: none;
+}
+
+.card1090 {
+    padding: 10px;
+    border: none;
+    background-color: #1a8cde18;
+    max-width: 850px;
+    height: 200px;
+}
+
+.cardTitle1090 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cardCRUDbutton {
+    display: block;
+}
+
+#showAllButton {
+    margin-top: 10px;
+    padding: 5px;
+    float: right;
+}
+
+#showAllButton:hover {
+    background-color: #1a8dde;
+    color: white;
+    text-decoration: none;
+}
+
+.cardTitle1090Home {
+    font-weight: bold;
+}
+
+.detailButton {
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+/* Tạo dấu hoa thị màu đỏ trong Form */
+.required-field::after {
+    content: " *";
+    color: red;
+}

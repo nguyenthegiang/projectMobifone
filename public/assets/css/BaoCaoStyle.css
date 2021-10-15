@@ -1,0 +1,30 @@
+/* Set width cho 2 khối to nhất */
+.myComponent {
+    width: 100%;
+}
+
+/* Tạo dấu hoa thị màu đỏ trong Form */
+.required-field::after {
+    content: " *";
+    color: red;
+}
+
+/* Cho mấy thẻ <select> dài hơn */
+.select2 {
+    width: 230%;
+}
+
+/* Link PDF to hơn */
+#myPdfLink {
+    font-size: larger;
+}
+
+/* Cái Header của Form (dưới dạng ribbon) to hơn */
+.myFormHeader {
+    font-size: large;
+}
+
+/* Mấy cái nút trong Form chuyển sang bên phải */
+.myToTheRight {
+    float: right;
+}
