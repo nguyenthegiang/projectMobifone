@@ -15,7 +15,7 @@ class Port1090DocumentaryController extends Controller
      */
     public function index()
     {
-        $documentaries = documentary::simplePaginate(5);
+        $documentaries = documentary::paginate(5);
         return view('documentary')->with('documentaries', $documentaries);
     }
 
